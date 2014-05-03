@@ -17,7 +17,7 @@ Edited original file (sourced from FIXME) in Inkscape. On importing,
 scaled up by 25.4 to get appropriate inch sizes. All I did was remove
 the plate holes for keys I'm not using (since I'm not adding a
 cosmetic top layer), and add a larger surround with screw holes (since
-I'm not using the standard cases).
+I'm not using the standard cases). Result is "tkl-rim.dxf".
 
 After a few quotes, and recommendations on the web, the plates were
 then laser cut by Yorkshire Profiles. This plate was cut with a couple
