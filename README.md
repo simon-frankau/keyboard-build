@@ -1,14 +1,49 @@
 Building a Phantom keyboard
 ===========================
 
-FIXME: Background and motivation
+Back in the mid-90's, I got myself a Cherry keyboard with MX blues. It
+was great. I used it a lot. I never took it in to work, though, and at
+the start of this year, after my KVM broke, they replaced my cheap and
+flimsy rubber dome with something far, far worse. Something that might
+have cost 2 quid to make. I looked at it in horror, and decided
+something must be done.
 
-More details in the sections below.
+I wanted a mechanical keyboard for work, and something based off my
+old Cherry seemed perfect. Why not use the Cherry itself?
+
+ * It didn't do USB. It didn't actually do PS/2, either, having an AT
+   plug and an adapater
+ * It lacks Windows keys, which are convenient
+ * Actually, a couple of keys had started to flake out. That
+   definitely needs fixing
+ * It didn't have a metal plate, which seemed a shame
+ * It wasn't tenkeyless and, well, I never use the number pad and do
+   use a mouse on the right, so that's a bit sub-optimal
+
+So, I decided to take the old Cherry, and reuse the switches and
+keycaps. This project has taken rather longer than I expected (and
+been more expensive!), so I should probably have just bought a nice
+new mechanical, rather than wait so long, using the horrible work
+keyboard, but it's certainly been a fun project.
+
+As I'd never done any custom keyboard stuff before, I just followed a
+very simple variation of the Phantom design.
+
+More details in the sections below, but the basic steps ran something
+like this:
 
 1. Got customised plate lasered
 2. Soldered the Teensy microcontroller to the Phantom PCB
 3. Installed diodes
 4. Painted plates
+5. Installed switches and stabilisers
+6. Soldered up the switches
+7. Made case
+
+The instructions at
+http://deskthority.net/wiki/Phantom_instruction_guide are very good
+and should give you everything you need, but I thought I'd just share
+my thoughts and experiences.
 
 Plates
 ======
@@ -66,6 +101,21 @@ to build
 Ended up using phantom_ansi_iso.hex from
 https://github.com/BathroomEpiphanies/AVR-Keyboard
 
+Installing
+----------
+
+It's very important to solder the Teensy in correctly. Solder the
+Teensy as low onto the main PCB as you can, since the Teensy sticking
+out the back is the limiting factor on the the depth of your keyboard,
+which you probably want to make quite thin. At the very least, take
+any plastic blocks off the headers. Ideally, solder the thing flat
+against the main board.
+
+Once soldered in, you need to really trim the soldered connections as
+flat as possible on the switch side, since they control how low you
+can put the switches that overlap the Teensy. You want as near as
+possible to flat.
+
 Testing
 -------
 
@@ -91,6 +141,12 @@ the PCB-mounted keyswitches to create ones suitable for
 plate-mounting). Put them in the board. Looked about right, but when I
 stuck a keycap on the alignment was clearly wrong as the keys stuck.
 
+Got some more plate-mounted Cherry stabilisers. These ones arrived,
+and did the business. It took a while to work out the best way to
+mount them. They are pushed in from the keycap side, having first
+passed the metal bar through the cut-out slot from the cap side to the
+soldering side.
+
 Keys
 ====
 
@@ -107,8 +163,35 @@ circulation.
 Keycaps
 =======
 
-Taken from my old Cherry keyboard.
+Taken from my old Cherry keyboard. (They're doubleshot. This is not
+something I'd realised at first, so I was somewhat surprised after the
+first few years that there was really no sign of wear to the
+labels...).
 
-FIXME: Need a clean. Need a 1u Cherry profile Windows key - d'oh,
+They were quite grubby after all their usage, but they quicky cleaned
+up when I scrubbed them with water and washing-up liquid, using an old
+toothbrush.
+
+FIXME: Modifiers. Need a 1u Cherry profile Windows key - d'oh,
 would have been simpler to replace that row and get a new 6.25u space
 bar, with easier-to-source modifiers, than deal with this.
+
+Thoughts on the Phantom design
+==============================
+
+The Phantom design tries to be a jack of all trades. It covers ISO and
+ANSI, plus a few other custom funky things, with 1u and 1.5 Windows
+keys. This does lead to a few ugly things - the wide switch hole for
+caps lock, the space bar with multiple stabiliser cut-outs, various
+bits on the PCB where the holes are a bit ick, etc.
+
+Overall, it does a pretty good job, but if I were to do this again I'd
+probably tidy up the plate a little bit more. I'd not try to redo the
+PCB though!
+
+On of the more painful bits is quite how thick the keyboard has to be
+because of the Teensy and the way it's mounted. As I'm reasonably
+confident with my soldering, /if/ I were to produce my own PCB, I
+think I'd directly solder a microcontroller to the board, saving the
+depth. If I could find an appropriate easy-to-solder SMT
+microcontroller, I guess.
