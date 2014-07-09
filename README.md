@@ -172,9 +172,61 @@ They were quite grubby after all their usage, but they quicky cleaned
 up when I scrubbed them with water and washing-up liquid, using an old
 toothbrush.
 
-FIXME: Modifiers. Need a 1u Cherry profile Windows key - d'oh,
-would have been simpler to replace that row and get a new 6.25u space
-bar, with easier-to-source modifiers, than deal with this.
+For the modifiers, I needed to add 1u Cherry profile Windows keys. In
+the end, I bought a Qwerkeys end-of-stock set of brightly-coloured
+modifiers that include the 1u. The bright colours rather change the
+look of the design (not quite so subdued and minimalist any more), but
+they are rather fun. The profile's a not-bad but not perfect match
+(the Cherry keys modifier row profile is the old profile that's not
+done any more).
+
+Case
+====
+
+I built a wooden case. The main thing I learnt here is that I'm no
+good at woodwork. Wood, without the right tools, is very slow going to
+make right. Oh, and it's very easy to get wrong - indelible dents,
+things too short/thin/narrow, things gone non-square and difficult to
+get back. Splintering when you least expect it.
+
+Appropriate tools help. Experience plus power tools would have made it
+a doddle. I bought increasingly non-inappropriate tools, including a
+mitre saw, chisel and tiny little files (needed for doing the
+connector recess). I bought a Dremel 231 router set-up for my Dremel
+tool. This has incredibly bad write-ups on the web as being flimsy as
+anything, but was perfect for my needs of creating recessed areas in
+small pieces of fairly soft wood. Eventually I got not bad at planing,
+too.
+
+The other thing I learnt is that you can take four straight pieces of
+wood together and get something non-planar as a result. Argh. A
+keyboard that wobbles. FIXME.
+
+To put it together, I used appropriate glue. The keyboard top (screwed
+into place) and bottom (a metal sheet covered in baize to make it rest
+nicely on the work top, put in place with FIXME) do the real job of
+holding it together.
+
+USB Socket
+----------
+
+I wanted a USB socket on the case, so I ended up creating an extension
+for the Teensy by cutting a cable in half and soldering it onto a
+socket embedded in the case. It didn't work initially, until I found
+out that either the colours in the cable or the socket pin-out or
+something was lying. Debugging was aided by comparing a cable that
+worked, vs my hacked-up cable, with a continuity tester. In my case,
+it appears I swapped D+ and D-, and once these were reversed it worked
+fine. The socket was then glued into the case.
+
+The internal plug that plugged into the Teensy needed to have its
+plastic cut off in order to fit into the available internal
+space. Snip snip snip...
+
+Finishing
+---------
+
+FIXME: Varnishing. How to handle the non-planar elements.
 
 Thoughts on the Phantom design
 ==============================
