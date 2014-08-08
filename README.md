@@ -48,7 +48,8 @@ my thoughts and experiences.
 Plates
 ======
 
-Edited original file (sourced from FIXME) in Inkscape. On importing,
+Edited original file (probably the same as
+http://deskthority.net/resources/file/1507) in Inkscape. On importing,
 scaled up by 25.4 to get appropriate inch sizes. All I did was remove
 the plate holes for keys I'm not using (since I'm not adding a
 cosmetic top layer), and add a larger surround with screw holes (since
@@ -200,12 +201,16 @@ too.
 
 The other thing I learnt is that you can take four straight pieces of
 wood together and get something non-planar as a result. Argh. A
-keyboard that wobbles. FIXME.
+keyboard that wobbles. So, in between the wooden frame and the base, I
+added a shim to correct the wobble. Super ugly.
 
 To put it together, I used appropriate glue. The keyboard top (screwed
 into place) and bottom (a metal sheet covered in baize to make it rest
-nicely on the work top, put in place with FIXME) do the real job of
+nicely on the work top, held in place with nail) do the real job of
 holding it together.
+
+The case is clearly the weakest link, something I'm not terribly proud
+of, but I don't have the time (or energy!) to really make it lovely.
 
 USB Socket
 ----------
@@ -226,7 +231,12 @@ space. Snip snip snip...
 Finishing
 ---------
 
-FIXME: Varnishing. How to handle the non-planar elements.
+I varnished the wood. Protip: A matt clear varnish will make you
+wonder why you bothered, since it's basically invisible.
+
+In the end, it looks in no way professional. However, I can live with
+the rustic look - I'm quite happy to have a keyboard that makes it
+clear I built it myself, and it still does the job for typing upon.
 
 Thoughts on the Phantom design
 ==============================
