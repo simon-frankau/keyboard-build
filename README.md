@@ -45,6 +45,8 @@ http://deskthority.net/wiki/Phantom_instruction_guide are very good
 and should give you everything you need, but I thought I'd just share
 my thoughts and experiences.
 
+An image of the final results is included as "Keyboard.jpg"
+
 Plates
 ======
 
