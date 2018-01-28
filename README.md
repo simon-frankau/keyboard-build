@@ -52,8 +52,8 @@ Plates
 
 Edited original file (probably the same as
 http://deskthority.net/resources/file/1507) in Inkscape. On importing,
-scaled up by 25.4 to get appropriate inch sizes. All I did was remove
-the plate holes for keys I'm not using (since I'm not adding a
+scaled up by 25.4 to convert from inches to millimeters. All I did was
+remove the plate holes for keys I'm not using (since I'm not adding a
 cosmetic top layer), and add a larger surround with screw holes (since
 I'm not using the standard cases). Result is "tkl-rim.dxf".
 
