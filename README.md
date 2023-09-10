@@ -1,6 +1,8 @@
 Building a Phantom keyboard
 ===========================
 
+![My Phantom-based keyboard](./Keyboard.jpg)
+
 Back in the mid-90's, I got myself a Cherry keyboard with MX blues. It
 was great. I used it a lot. I never took it in to work, though, and at
 the start of this year, after my KVM broke, they replaced my cheap and
@@ -44,8 +46,6 @@ The instructions at
 http://deskthority.net/wiki/Phantom_instruction_guide are very good
 and should give you everything you need, but I thought I'd just share
 my thoughts and experiences.
-
-An image of the final results is included as "Keyboard.jpg"
 
 Plates
 ======
